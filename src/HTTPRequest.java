@@ -14,6 +14,12 @@ import java.util.Map;
  * Created by Himanshu on 30-03-2017.
  */
 public class HTTPRequest {
+
+
+    public HTTPRequest() {
+
+    }
+
     public static void main(String[] args) throws JSONException {
          URL url = null;
         try {
@@ -63,11 +69,7 @@ public class HTTPRequest {
                     String url1 = jsonobject.getString("id");
                     System.out.println(url1);
                 }
-
-
             }
-
-
 
         } catch (IOException e) {
             e.printStackTrace();
